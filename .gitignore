@@ -1,0 +1,19 @@
+# Ignore Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore sensitive config files
+SUPABASE_API.json
+rate_api.json
+rates.json
+
+# Ignore environment config
+.env
+
+# Ignore system/IDE files
+*.log
+*.DS_Store
+.idea/
+.vscode/
